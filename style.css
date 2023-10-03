@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+ 
+.container {
+    background-image: url("https://freedesignfile.com/upload/2017/06/Green-classic-background-HD-picture.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120vh;
+    
+}
+#heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #edeef0;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    background-image: linear-gradient(180deg,rgb(179, 8, 116),#2047f3);
+    background-clip: text;
+    -text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#watch_img{
+    height: 50px;
+    width: 50px;
+}
+#time{
+    border:3px solid #077b37cd;
+    border-radius: 20px;
+    padding: 50px 80px;
+    box-shadow: 3px 2px 3px 2px #726c6cf4;
+}
+h1 {
+    color: rgb(10, 238, 10);
+    text-align: center;
+}
+ 
+.digit {
+    font-size: 150px;
+    color: #fff;
+}
+ 
+.txt {
+    font-size: 30px;
+    color: #fffcd6;
+}
+ 
+#buttons {
+    margin-top: 50px;
+}
+ 
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+}
+ 
+#start {
+    background-color: #17b656c4;
+}
+ 
+#stop {
+    background-color: #fc0e6d;
+}
+ 
+#reset {
+    background-color: #2f46f1;
+}
+#start:hover {
+   border:5px solid #ffffffe3;
+}
+ 
+#stop:hover {
+    border:5px solid #ffffffe3;
+}
+ 
+#reset:hover {
+    border:5px solid #ffffffe3;
+}
+
+#footer{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    margin-top: 200px;
+    color: #222;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:920px){
+    .container {
+        width: 100%;
+        height: 180vh;
+        
+    }
+    #heading{
+        margin-top: 0px;
+        font-size: 50px;
+     
+    }
+    .digit {
+        font-size: 100px;
+
+    }
+    .btn {
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    
+    }
+    #time{
+        padding: 30px 60px;
+    }
+    #footer{
+       
+        margin-top: 150px;
+    
+    
+    }
+
+
+}
